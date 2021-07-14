@@ -13,7 +13,9 @@ import java.io.IOException;
 @Slf4j
 public class HelloServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req,
+                         HttpServletResponse resp) throws ServletException, IOException
+    {
         System.out.println("Running HelloServlet doGet method ");
         log.info("Running HelloServlet doGet method ");
     }
